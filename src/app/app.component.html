@@ -1,0 +1,6 @@
+<div (window:resize)="onResize($event)">
+  <h3>Bar Chart</h3>
+  <app-bar-chart *ngIf="chartData" [data]="chartData"></app-bar-chart>
+</div>
+
+<pie-chart></pie-chart>
