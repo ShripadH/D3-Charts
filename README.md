@@ -27,8 +27,6 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,7 +52,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   /* use this value to count block height */
   line-height: 1.2em;
   /* max-height = line-height (1.2) * lines max number (3) */
-  max-height: 3.6em; 
+  max-height:2.6em; 
   /* fix problem when last visible word doesn't adjoin right side  */
   text-align: justify;  
   /* place for '...' */
